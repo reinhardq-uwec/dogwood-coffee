@@ -1,0 +1,42 @@
+h1{
+    font-family: 'Rubik Puddles', cursive;
+}
+h2{
+    font-family: 'Cutive', serif;
+}
+h3{
+    font-family: 'Cutive', serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+p{
+    font-family: 'Cabin', sans-serif;
+}
+.featuredbeans{
+    background-color: rgb(194, 229, 211);
+    padding: 1rem;
+}
+.shopbeans{
+    background-color: rgb(194, 229, 211);
+    padding: 1rem;
+}
+footer{
+    display:inline-block;
+}
+footer>img{
+     max-width: 3.1rem;
+}
+.navbar{
+    font-family: 'Cutive', serif;
+    display: inline-block;
+}
+.navbar>a{
+    padding: 1rem;
+}
+.locations{
+    background-color: rgb(194, 229, 211);
+    padding: 1rem;
+    margin: 1rem;
+}
