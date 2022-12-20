@@ -3,9 +3,11 @@ h1{
 }
 h2{
     font-family: 'Cutive', serif;
+    padding: 1rem;
 }
 h3{
     font-family: 'Cutive', serif;
+    padding: 1rem;
 }
 a{
     text-decoration: none;
@@ -16,10 +18,11 @@ p{
 }
 .featuredbeans{
     background-color: rgb(194, 229, 211);
-    padding: 1rem;
+    display: flex;
+    justify-content: center;
 }
-.shopbeans{
-    background-color: rgb(194, 229, 211);
+.featuredbeans>img{
+    max-height: 300px;
     padding: 1rem;
 }
 footer{
@@ -30,7 +33,6 @@ footer>img{
 }
 .navbar{
     font-family: 'Cutive', serif;
-    display: inline-block;
 }
 .navbar>a{
     padding: 1rem;
@@ -39,4 +41,114 @@ footer>img{
     background-color: rgb(194, 229, 211);
     padding: 1rem;
     margin: 1rem;
+}
+.centerlocations{
+    text-align: center;
+}
+.locationsimage>img{
+    max-width: 400px;
+}
+.header{
+    display: inline-block;
+    padding: 1rem;
+    justify-content: space-between;
+}
+.header img{
+    float: right;
+    width: 90px;
+    height: 90px;
+}
+.header h1{
+    top: 18px;
+    left: 0px;
+}
+.socials img{
+    height: 3rem;
+    margin: .15rem;
+}
+.menu{
+    text-align: center;
+}
+.drinks{
+    background-color: rgb(194, 229, 211);
+}
+.pastries{
+    background-color: rgb(194, 229, 211);
+}
+.savory{
+    background-color: rgb(194, 229, 211);
+}
+.ourlocations{
+    text-align: center;
+}
+.fromthegram{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+}
+.fromthegram>img{
+    max-width: 250px;
+    padding: 1rem;
+}
+.shopbeans{
+    background-color: rgb(194, 229, 211);
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:space-evenly;
+    margin-bottom: 30px;
+}
+.shopbeans>img{
+    max-width: 200px;
+    padding: 1rem;
+}
+.greeting{
+    text-align: center;
+    background-color: #fb6b89;
+    color: white;
+}
+.mugs{
+    background-color: rgb(194, 229, 211);
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+}
+.mugs>img{
+    max-width: 200px;
+    padding: 1rem;
+}
+.equip{
+    background-color: rgb(194, 229, 211);
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+}
+.equip>img{
+    max-width: 200px;
+    padding: 1rem;
+}
+.cart{
+    float: right;
+}
+.shopping{
+    background-color: rgb(194, 229, 211);
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+}
+.shopping>img{
+    max-width: 200px;
+    padding: 1rem;
 }
